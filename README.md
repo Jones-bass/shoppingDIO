@@ -6,8 +6,8 @@ Material UI
 
 ### `Funcionalidades`
 
-Projeto vem com base de vendas de camisa 
-ao clicar no botão adicionar, a pre venda irá
+Projeto vem com base na vendas de camisas de times e 
+ao clicar no botão adicionar, a gente percebe uma notificação e a venda irá
 para o carrinho de compras que ficará canto superior da tela.
 
 Um modal dinamico com valores, quantidades e a foto do produto.

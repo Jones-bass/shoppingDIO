@@ -20,6 +20,7 @@ export default function cart(state = INITIAL_STATE, action){
                 state.Cart.push(item);
             } else {
                 let check = false;
+                // eslint-disable-next-line array-callback-return
                 state.Cart.map((item, key) => {
                     if(item.id === action.product.id_product){
                         state.Cart[key].quantity++;
@@ -70,5 +71,6 @@ export default function cart(state = INITIAL_STATE, action){
         default:
             return state;
     }
+    // eslint-disable-next-line no-unreachable
     return state
 }
